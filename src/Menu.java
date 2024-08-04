@@ -9,7 +9,7 @@ public class Menu {
     private Menu() {
         menu = MenuFactory.createMenuArrayList();
         order = new Order();
-        menu.loadMenuFromCSV("./data/ass02menu.csv");
+        menu.loadMenuFromCSV("./src/data/ass02menu.csv");
     }
 
     public static Menu getInstance() {
